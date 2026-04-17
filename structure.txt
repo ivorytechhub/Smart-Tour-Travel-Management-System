@@ -1,0 +1,28 @@
+
+smart-tour/
+├── admin/
+│   ├── index.php        (Dashboard)
+│   ├── tours.php        (Manage Tours)
+│   ├── bookings.php     (Manage Bookings)
+│   └── tour_actions.php (CRUD Logic)
+├── api/
+│   └── gemini.php       (AI Logic)
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── includes/
+│   ├── db.php           (Database Connection)
+│   ├── header.php       (Navigation)
+│   ├── footer.php
+│   └── auth_check.php
+├── uploads/             (Tour Images)
+├── index.php
+├── tours.php
+├── tour_details.php
+├── login.php
+├── register.php
+├── logout.php
+├── my_bookings.php
+├── ticket.php           (PDF Generator)
+└── database.sql
